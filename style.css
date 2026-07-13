@@ -1,0 +1,38 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding:140px 20px 100px;
+    background:#f8f9fa;
+}
+
+.foto-perfil{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid #212529;
+}
+
+.proyecto{
+    border-radius:15px;
+    transition:.3s;
+    box-shadow:0 4px 12px rgba(0,0,0,.2);
+}
+
+.proyecto:hover{
+    transform:scale(1.04);
+}
+
+section{
+    scroll-margin-top:90px;
+}
+
+footer p{
+    margin:5px;
+}
